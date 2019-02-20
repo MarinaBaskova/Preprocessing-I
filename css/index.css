@@ -129,8 +129,7 @@ table {
 html {
   box-sizing: border-box;
   font-size: 62.5%;
-  /* 10px base */
-  font-family: Arial, "sans-serif";
+  font-family: Arial, 'Lato', "sans-serif";
 }
 *,
 *:before,
