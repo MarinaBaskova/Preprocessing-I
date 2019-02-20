@@ -142,7 +142,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: black;
 }
 img {
@@ -239,10 +239,52 @@ p {
   padding-bottom: 20px;
 }
 .intro-section .intro-info .main-btn {
-  background: #47372A;
+  background: #333232;
   padding: 2% 3%;
   color: beige;
   border-radius: 10px;
   font-size: 1.5rem;
   margin-top: 2%;
+}
+.main-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 3% 0;
+}
+@media (max-width: 500px) {
+  .main-section {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}
+.main-section .main-info {
+  width: 55%;
+}
+@media (max-width: 500px) {
+  .main-section .main-info {
+    width: 90%;
+  }
+}
+.main-section .main-info p {
+  font-size: 1.6rem;
+  line-height: 1.7;
+  margin-top: 2%;
+}
+.main-section .skills-list {
+  width: 35%;
+}
+@media (max-width: 500px) {
+  .main-section .skills-list {
+    width: 90%;
+  }
+}
+.main-section .skills-list ul {
+  margin-top: 3%;
+}
+.main-section .skills-list ul li {
+  font-size: 1.45rem;
+  padding: 12px 0px 10px 10px;
+  border: 1px solid grey;
 }
