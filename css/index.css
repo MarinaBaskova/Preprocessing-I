@@ -288,3 +288,33 @@ p {
   padding: 12px 0px 10px 10px;
   border: 1px solid grey;
 }
+table {
+  width: 100%;
+  margin: 2% 0;
+}
+table thead {
+  border: 1px solid grey;
+  line-height: 3.5rem;
+}
+table thead tr {
+  font-weight: bold;
+}
+table tbody tr {
+  text-align: center;
+  line-height: 3.25rem;
+}
+table tbody tr td.line-color {
+  background: lightgray;
+}
+.main-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(122, 106, 94, 0.3);
+  width: 100%;
+  height: 80px;
+  margin-top: 5%;
+}
+.main-footer .footer-copyright {
+  font-size: 1.45rem;
+}
