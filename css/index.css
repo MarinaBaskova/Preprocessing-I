@@ -244,6 +244,12 @@ p {
   border-radius: 10px;
   font-size: 1.5rem;
   margin-top: 2%;
+  outline: none;
+}
+@media (max-width: 500px) {
+  .intro-section .intro-info .main-btn {
+    width: 100%;
+  }
 }
 .main-section {
   display: flex;
