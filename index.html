@@ -3,8 +3,9 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
-  <title>My Resume</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <title>Jonny Appleseed</title>
 
   <link rel="stylesheet" href="css/index.css">
 
@@ -14,6 +15,82 @@
 </head>
 
 <body>
-  <h1>My Resume</h1>
+  <div class="container">
+      <header class="header">
+          <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contact</a>
+          </nav>
+        </header>
+
+        <section class="intro-section">
+          <div class="intro-img"><img src="img/main-image.jpg" alt="Laptop image"></div>
+          <div class="intro-header">
+            <h1>Jonny Appleseed - Web Dev</h1>
+            <h3>Technology is my jam!</h3>
+          </div> 
+          <div class="intro-info">
+            <p>Occasionally I have time to work on side projects, if you're interested, let me know by signing up on this website.</p>
+            <button class="main-btn">Let's Team Up</button>
+          </div>
+        </section>
+      
+        <section class="main-section">
+          <div class="main-info">
+            <h2>Listen Up...</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          </div>
+          <div class="skills-list">
+            <h2>Suff I'm Good At:</h2>
+            <ul>
+              <li>Disc Golf</li>
+              <li>Coding up UI</li>
+              <li>Playing lots of video games</li>
+              <li>Using bootstrap grid</li>
+              <li>Taking long naps</li>
+            </ul>
+          </div>
+        </section>
+      
+        <section class="main-table">
+          <h2>Work History</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Years</th>
+                <th>Company</th>
+                <th>Title</th>
+                <th>Tech Used</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="line-color">1</td>
+                <td class="line-color">Apple</td>
+                <td class="line-color">Software Engineer</td>
+                <td class="line-color">Swift</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Microsoft</td>
+                <td>Computer Scientist</td>
+                <td>.NET</td>
+              </tr>
+              <tr>
+                <td class="line-color">3</td>
+                <td class="line-color">Amazon</td>
+                <td class="line-color">Dev Ops</td>
+                <td class="line-color">AWS</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>  
+
+        <footer class="main-footer">
+          <p class="footer-copyright">Copyright Awesomeness 2019</p>
+        </footer>
+  </div>
 </body>
 </html>
